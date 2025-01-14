@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <style>
+      body{
+        background: url(images/image7.jpg);
+      }
+      .navbar{
+        background-color: black;
+      }
+      .about_container{
+        height: 50vh;
+        width: 100%;
+        border: 2px solid transparent;
+        backdrop-filter: blur(10px);
+        position: relative;
+      }
+      .left_container{
+        height: 300px;
+        width: 300px;
+        background:   url(./images/about.jpeg) no-repeat center;
+        background-size: cover;
+        border: 2px solid black;
+        box-shadow: 0 0 10px rgba(244, 237, 237, 0.59);
+        position:absolute;
+        left: 20%;
+        top: 40px;
+      }
+      .right_container{
+        height: 200px;
+        width: 300px;
+        text-align: center;
+        justify-content: center;
+        position: absolute;
+        right: 20%;
+        top: 40px;
+      }
+    </style>
+    
+</head>
+<body>
+    
+<nav class="navbar">
+    <div class="logo">
+      <i class="fa-solid fa-mug-saucer"></i>
+      <div class="logo-text">
+        <span>Coffee</span>
+        <span>House</span>
+      </div>
+    </div>
+    <div class="navigation">
+      <a href="./index.html">Home</a>
+      <a href="./menu.html">Menu</a>
+      <a href="./blog.html">Blog</a>
+      <a href="about.html">About</a>
+      <a href="./shop.html">Shop</a>
+      <a href="./contact.html">Contact</a>
+      <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+    </div>
+</nav>
+<section class="about">
+    <div>
+      <i class="fa-solid fa-mobile"></i>
+      <h1>Easy to Order</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam ut
+        suscipit, quod quidem cumque rerum.
+      </p>
+    </div>
+    <div>
+      <i class="fa-solid fa-truck"></i>
+      <h1>Fastest Delivery</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam ut
+        suscipit, quod quidem cumque rerum.
+      </p>
+    </div>
+    <div>
+      <i class="fa-solid fa-mug-hot"></i>
+      <h1>Quality Coffee</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam ut
+        suscipit, quod quidem cumque rerum.
+      </p>
+    </div>
+  </section>
+  <section class="about_container">
+    <div class="info">
+      <div class="left_container"></div>
+      <div class="right_container">
+        <h2>About Us</h2>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus hic dolore, tempore debitis obcaecati iure deleniti sapiente quia harum laboriosam vitae nesciunt. Explicabo quae reiciendis laboriosam veniam, sequi error assumenda.</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

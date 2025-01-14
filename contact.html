@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact details</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            height: 100vh;
+            background: url(images/image5.jpg) no-repeat center;
+            position: relative;
+        }
+        .main-heading{
+            margin: 10px;
+            color: #c49b63;
+        }
+        .blur_container{
+            height: 50vh;
+            width: 500px;
+            text-align: center;
+            justify-content: center;
+            backdrop-filter: blur(30px);
+            box-shadow: 0 0 30px rgba(227, 228, 237, 0.37);
+            border: 2px solid rgba(255, 255, 255, 0.18);
+            position: absolute;
+            top: 30%;
+            left: 40%;
+        }
+        .detail{
+            padding: 10px;
+            font-size: 14px;
+            color: #fff;
+        }
+        .detail strong{
+            font-size: 15px;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo">
+              <i class="fa-solid fa-mug-saucer"></i>
+              <div class="logo-text">
+                <span>Coffee</span>
+                <span>House</span>
+              </div>
+            </div>
+            <div class="navigation">
+              <a href="./index.html">Home</a>
+              <a href="./menu.html">Menu</a>
+              <a href="./blog.html">Blog</a>
+              <a href="./about.html">About</a>
+              <a href="./shop.html">Shop</a>
+              <a href="./contact.html">Contact</a>
+              <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        </nav>
+        <div class="blur_container">
+            <div class="header">
+                <h1 class="main-heading">Contact Detail</h1>
+            </div>
+            <div class="contact_container">
+                <p class="detail"><strong>Contact No. :-</strong> 000 (123) 456 7890 <br>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><br>
+                <p class="detail"><strong>Mail :-</strong> coffeehouse112@example.com <br>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p><br>
+                <p class="detail"><strong>123 Main Street</strong> 203 Fake St. Mountain View, San Francisco,
+                California, USA</p><br>
+                <p class="detail"><strong>Open Monday-Friday</strong> Please Join Us. We are Available --> 8:00 am - 9:00 pm</p>
+            </div> 
+        </div>
+    </div>
+</body>
+</html>

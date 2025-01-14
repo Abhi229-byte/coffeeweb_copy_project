@@ -1,0 +1,124 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #333;
+    background-image:url(images/image5.jpg);
+    
+}
+header {
+    background-color: #a98984;
+    color: #fff;
+    padding: 13px;
+    text-align: center;
+    height: 20px;
+    width: 60px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    border-radius: 45%;
+    margin-left: 110px;
+}
+.navbar{
+    background-color: black
+}
+
+.head {
+    background-color: #5d4037;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+.head a {
+    color:white;
+    text-decoration: none;
+    margin: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.head a:hover {
+    background-color: #3e2723;
+}
+section {
+    padding: 30px;
+}
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+    border-color: white;
+    border-radius: 10%;
+    border-style: dashed;
+    height: 100px;
+    width: 270px;
+}
+.product img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: inherit;
+}
+.product-info {
+    flex: 1;
+    margin-left: 15px;
+}
+.product-info h3 {
+    margin: 0;
+}
+.product-info p {
+    color: #666;
+}
+.add-to-cart {
+    background-color: #3e2723;
+    color: white;
+    border: none;
+    padding: 4px 6px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.add-to-cart:hover {
+    background-color: #5d4037;
+
+}
+.cart {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 50px;
+    width: 280px;
+}
+.cart h2 {
+    margin-top: 0;
+}
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.cart-item:last-child {
+    border-bottom: none;
+}
+h2{
+    color: white;
+    background-position: 20px;
+}
+footer{
+    color: #fff;
+    text-align: center;
+}
+div{
+    color: #666;
+}
+.product-info{
+    color: white;
+}

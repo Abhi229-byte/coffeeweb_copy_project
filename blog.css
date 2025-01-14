@@ -1,0 +1,147 @@
+.navbar{
+    background: black;
+}
+.landing{
+    height: 100vh;
+    width: 100%;
+    overflow: scroll;
+    scrollbar-width: none;
+    position: fixed;
+    top: 10%;
+    left: 0%;
+    background: url(./images/image3.jpg);
+}
+.main_heading{
+    margin: 15px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+.main_container{
+    margin: 10px;
+    position: relative;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+.left_container{
+    height: 100vh;
+    width: 70%;
+}
+.right_container{
+    height: 100vh;
+    width: 30%;
+    position: absolute;
+    right: 0%;
+    top: 0;
+    border-left: 3px solid white;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+.tranding{
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    color: white;
+    background-color: black;
+}
+.hr{
+    box-shadow: 0 0 30px rgba(227,228,237,0.37) ;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.18) ;
+}
+.blog{
+    margin: 10px;
+    height: 25vh;
+    width: 95%;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    position: relative;
+    backdrop-filter: blur(7px);
+}
+.blog:hover{
+    box-shadow: 0 0 10px rgba(227, 228, 237, 0.37),0 0 10px rgba(227, 228, 237, 0.37);
+}
+.customer_reviews{
+    height: 50vh;
+    width: 100%;
+    backdrop-filter: blur(2px);
+    margin-bottom: 5%;
+    position: relative;
+}
+.read{
+    color: blue;
+    font-size: 20px;
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+}
+.new{
+    color: white;
+    background-color:red;
+    font-size: 15px;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+}
+img{
+    height: 25px;
+    background-color: transparent;
+}
+.icon_image1{
+    height: 30px;
+    width: 30px;
+    background: url(./images/aajtak.jpg) no-repeat center;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.icon_image2{
+    height: 30px;
+    width: 30px;
+    background: url(./images/abp.jpeg) no-repeat center;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.icon_image3{
+    height: 30px;
+    width: 30px;
+    background: url(./images/amarujala.jpeg) no-repeat center;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.icon_image4{
+    height: 30px;
+    width: 30px;
+    background: url(./images/jabran.jpeg) no-repeat center;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.icon_image5{
+    height: 30px;
+    width: 30px;
+    background: url(./images/news\ 18.jpeg) no-repeat center;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.icon_image6{
+    height: 30px;
+    width: 30px;
+    background: url(./images/zeenews.jpeg) no-repeat center;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.aaj{
+    position: absolute;
+    top: 15px;
+    left: 15%;
+}
